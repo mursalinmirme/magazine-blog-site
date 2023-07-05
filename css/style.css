@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+/* font names 
+font-family: 'Ubuntu', sans-serif;
+font-family: 'Work Sans', sans-serif;
+ */
+ /* color->#000000 | #8D8D8D | #0000FF | #FFFFFF */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+.topbar{
+    background: rgb(231, 238, 150);
+    height: 60px;
+}
+.container{
+    width: 1100px;
+    margin: auto;
+}
+.topbarWrap{
+    display: flex;
+    padding: 7px 0px;
+}
+.topbarWrap .topbarLeft{
+    width: 10%;
+}
+.topbarWrap .topbarLeft .logo{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topbarWrap .topbarLeft .logo h1{
+    font-size: 23px;
+}
+.topbarWrap .topbarRight{
+    width: 90%;
+    display: flex;
+    justify-content: flex-end;
+}
+.topbarWrap .topbarRight ul{
+    display: flex;
+    list-style-type: none;
+    
+}
+.topbarWrap .topbarRight ul li{
+    padding: 14px;
+
+}
+.topbarWrap .topbarRight ul li:hover{
+    background-color: red;
+    border-radius: 5px;
+}
+.cstomCarosel{
+    height: 600px;
+    width: 105%;
+    position: relative;
+}
+.cstomCarosel::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #000000B3;
+}
+.customPegination{
+    display: flex;
+    align-items: center;
+
+}
+.customPegination .pegeNum{
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border-left: 5px solid #8d8d8d;
+    border-top: 5px solid #0000ff;
+    border-right: 5px solid #0000ff;
+    border-bottom: 5px solid #0000ff; */
+    border: 5px solid #8d8d8d;
+    margin-right: 15px;
+    border-radius: 50%;
+}
+.customPegination .pegeNum b{
+    font-size: 25px;
+    color: #ffffff;
+}
+.customPegination .pegeDesc{
+    
+}
+.customPegination .pegeDesc p{
+    color: #8d8d8d;
+    font-family: 'Work Sans', sans-serif;
+
+}
+.customPegination{
+    
+}
+
+.homeWrapper{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.home-peganation{
+    position: absolute;
+    bottom: 30px;
+    background-color: red;
+    
+}
+
+.center .customPegination .pegeNum{
+    border-left: 5px solid #8d8d8d;
+    border-top: 5px solid #0000ff;
+    border-right: 5px solid #0000ff;
+    border-bottom: 5px solid #0000ff;
+    
+}
+.center .customPegination .pegeDesc p{
+    color: #ffffff;
+}
+
