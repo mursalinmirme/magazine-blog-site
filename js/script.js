@@ -2,11 +2,15 @@ $('.owlCarouselOne').owlCarousel({
     loop:true,
     margin:17,
     padding:0,
-    items:1,
+    items:4,
+    animateIn: 'fadeIn',
+    animateOut: 'fadeOut',
     responsiveClass:true,
     autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
+    slideTransition: 'linear',
+    autoplayTimeout:4500,
+    autoplaySpeed: 1000,
+    autoplayHoverPause:false,
     responsive:{
         0:{
             items:1,
@@ -30,8 +34,9 @@ $('.owlCarouselTwo').owlCarousel({
     center:true,
     responsiveClass:true,
     autoplay:true,
-    autoplayTimeout:5000,
-    autoplayHoverPause:true,
+    autoplayTimeout:3500,
+    autoplaySpeed: 1000,
+    autoplayHoverPause:false,
     responsive:{
         0:{
             items:1,
