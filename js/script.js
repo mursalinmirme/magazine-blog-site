@@ -52,3 +52,31 @@ $('.owlCarouselTwo').owlCarousel({
         }
     }
 })
+$('.owlCarouselThree').owlCarousel({
+    loop:true,
+    margin:0,
+    padding:0,
+    items:4,
+    center:true,
+    nav:true,
+    navText:['<','>'],
+    responsiveClass:true,
+    autoplay:true,
+    autoplayTimeout:3500,
+    autoplaySpeed: 1000,
+    autoplayHoverPause:false,
+    responsive:{
+        0:{
+            items:1,
+            nav:true
+        },
+        600:{
+            items:3,
+            nav:false
+        },
+        1000:{
+            items:1,
+            loop:true
+        }
+    }
+})
